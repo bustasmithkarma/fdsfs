@@ -1,4 +1,9 @@
 #!/usr/bin/python
+
+#------------------------------------------------------------------------
+# Gets public URL for a given Instagram photo ID.
+# Example: http://instagram.com/p/h6qXCCmCJf/ => photo_id = h6qXCCmCJf
+#------------------------------------------------------------------------
 import requests
 import sys
 import json
